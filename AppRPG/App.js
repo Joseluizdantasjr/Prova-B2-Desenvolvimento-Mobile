@@ -1,6 +1,4 @@
-import { NavigationContainer, StackActions } from '@react-navigation/native';
-import { StatusBar } from 'expo-status-bar';
-import { ActivityIndicator, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CatalogoRPG from './src/pages/CatalogoRPG/CatalogoRPG';
 import Login from './src/pages/Login/Login';
